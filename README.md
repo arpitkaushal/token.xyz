@@ -8,4 +8,4 @@ Destroy queues, welcome convenience. Never wait mindlessly again!
   <br/>
 </center>
 
-Join our [discord server](https://discord.gg/hr8MT9jd6M) to contribute to the app ( while we're still ideating, ofcourse later you'll be contributing via PRs :P ) 
+Join our [discord server](https://discord.gg/hr8MT9jd6M) to contribute to the app ( while we're still ideating that is, of course later you'll be contributing via PRs :P ) 
