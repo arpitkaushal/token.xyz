@@ -1,0 +1,12 @@
+{
+  "name": "token.xyz",
+  "version": "1.0.0",
+  "description": "Destroy queues, welcome convenience. Never wait mindlessly again!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "arpitkaushal,mihirjain-iitgn",
+  "license": "ISC"
+}
