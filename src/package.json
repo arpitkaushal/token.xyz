@@ -1,15 +1,34 @@
 {
-  "name": "token.xyz",
+  "name": "nodeapi",
   "version": "1.0.0",
-  "description": "Destroy queues, welcome convenience. Never wait mindlessly again!",
-  "main": "index.js",
+  "description": "A Node Js API",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app.js",
+    "dep": "node --trace-deprecation app.js"
   },
-  "keywords": [],
-  "author": "arpitkaushal,mihirjain-iitgn",
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "Ryan Dhungel",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.21.1",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^5.3.1",
+    "formidable": "^1.2.1",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.10",
+    "mongoose-mongodb-errors": "0.0.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.7",
+    "uuid": "^3.3.2"
   }
 }
