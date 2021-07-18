@@ -1,17 +1,13 @@
 {
-  "name": "nodeapi",
+  "name": "token.xyz",
   "version": "1.0.0",
-  "description": "A Node Js API",
-  "main": "app.js",
+  "description": "Destroy queues, welcome convenience. Never wait mindlessly again!",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "dep": "node --trace-deprecation app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "node",
-    "api"
-  ],
-  "author": "Ryan Dhungel",
+  "keywords": [],
+  "author": "arpitkaushal,mihirjain-iitgn",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
